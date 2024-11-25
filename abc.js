@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Dynamic content example
     const dynamicButton = document.querySelector("#dynamic-btn");
     const dynamicContent = document.querySelector("#dynamic-content");
 

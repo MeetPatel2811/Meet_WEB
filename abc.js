@@ -41,11 +41,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// Example: Update time dynamically
-setInterval(() => {
-    const timeElement = document.querySelector("#current-time");
-    if (timeElement) {
-        const now = new Date();
-        timeElement.textContent = now.toLocaleTimeString();
-    }
-}, 1000);
+

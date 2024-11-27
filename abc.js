@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const dynamicButton = document.querySelector("#dynamic-btn");
     const dynamicContent = document.querySelector("#dynamic-content");
 
-    if (dynamicButton && dynamicContent) {
+    if (  dynamicContent) {
         dynamicButton.addEventListener("click", () => {
             dynamicContent.textContent = "You clicked the button! Here's some dynamic content.";
             dynamicContent.classList.add("highlight");
